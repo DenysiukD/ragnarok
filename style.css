@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+:root{
+    --lightblue:#A9C7C7;
+    --violet: #8856d9;
+    --orange: #ff4136;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+body{
+    background: #1C2023;
+}
