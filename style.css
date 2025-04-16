@@ -277,7 +277,13 @@ column-gap: 33px;
 
 .explore-card {}
 
-.explore-card-title {}
+.explore-card-title {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+text-align: center;
+color: #fff;
+}
 
 .explore-card-switcher {}
 
@@ -287,13 +293,25 @@ column-gap: 33px;
 
 .switcher-block {}
 
-.explore-card-data {}
+.explore-card-data {
+    display: flex;
+align-items: center;
+justify-content: center;
+}
 
 .explore-data-poster {}
 
-.explore-card-data-params {}
+.explore-card-data-params {
 
-.explore-card-data-params-item {}
+}
+
+.explore-card-data-params-item {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 240%;
+    color: #8856d9;
+}
 
 .pc {}
 
