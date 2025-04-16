@@ -215,15 +215,57 @@ li {
 
 .controler {}
 
-.controler-left {}
 
-.controler-left-desc {}
+.controller-container {
+    display: flex;
+    justify-content: center;
+}
 
-.controler-price {}
+.controler-left {
+    width: 425px;
+}
 
-.controler-price-count {}
+.controler-left-desc {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #a9c7c7;
+}
 
-.controler-price-buy {}
+.purple {
+    font-weight: 700;
+    color: #8856d9;
+}
+
+.red {
+    font-weight: 700;
+    color: #ff4136;
+}
+
+.controler-price {
+display: flex;
+align-items: center;
+column-gap: 33px;
+}
+
+.controler-price-count {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 28px;
+}
+
+.controler-price-buy {
+    background: #ff4136;
+    border-radius: 6px;
+    width: 274px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+}
 
 .controler-right {}
 
