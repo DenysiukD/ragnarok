@@ -555,3 +555,37 @@ color: #8c96a0;
     color: #8856d9;
     margin-bottom: 13px;
 }
+
+@media ( max-width:1024px){
+    .header{
+        padding: 46px 217px 187px 50px
+    }
+    .header-nav-right{
+      margin-top: -18px;  
+      margin-left: 28px;
+    }
+    .nav-left-list{
+    font-size: 14px;
+    
+    }
+    .nav-right-list{
+        font-size: 34px;
+        
+    }
+    .faq{
+        padding-left : 0; 
+        padding-right: 0 ;
+    }
+
+    .news-info-poster{
+      width: 165px;  
+      height: 200px;
+    }
+    .news-info-data-desc{
+    font-size: 14px;
+    }
+    .news-top{
+        
+    }
+    
+}
