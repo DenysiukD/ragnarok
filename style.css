@@ -680,3 +680,84 @@ color: #8c96a0;
 
 
 }
+
+.modal-subtitle {
+    font-size: 15px;
+    margin-bottom: 16px;
+    font-weight: 500;
+  }
+
+  .modal-close{
+    align-self: flex-end;
+    clip: auto;
+  }
+  
+  .modal-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+  
+  .modal-form-label {
+    font-size: 10px;
+  }
+  
+  .modal-form-input {
+    background: #30373f;
+    border: none;
+    border-radius: 6px;
+    padding: 16px 0px 16px 14px;
+    color: white;
+  }
+  
+  input:focus-visible {
+    outline: none;
+    border: none;
+  }
+
+.modal-form-container{
+    display: subgrid;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.form-block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.rules{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.red{
+    color: var(--orange);
+}
+
+.modal-form-summ{
+    font-size: 12px;
+}
+
+.form-container-price{
+    font-size: 20px;
+}
+
+.modal-form-buy{
+    width: 100%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 6px;
+    color: white;
+    background: #8856d9;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 12px;
+
+}
